@@ -29,11 +29,11 @@ function App() {
     }
   };
 
-  function countTotalFeedback() {
+  const countTotalFeedback = ()=> {
     return good + neutral + bad;
   }
 
-  function countPositiveFeedbackPercentage() {
+  const countPositiveFeedbackPercentage = ()=> {
     return Math.round((good / countTotalFeedback()) * 100);
   }
 

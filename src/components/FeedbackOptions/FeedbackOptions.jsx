@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
 
-function FeedbackOptions({ options, onLeaveFeedback }) {
+const FeedbackOptions = ({ options, onLeaveFeedback }) =>{
     return (
         <>
             <div>
